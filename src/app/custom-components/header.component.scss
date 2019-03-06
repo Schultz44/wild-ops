@@ -1,0 +1,16 @@
+#main-header{
+    height: 50px;
+    width: 100%;
+    background-color: #eee;
+    box-shadow: 0px 2px 1px 5px #eee;
+}
+.nav{
+    display: flex;
+    align-content: center;
+    height: 50px;
+    padding: 0px 20px;
+    color: #555;
+    .nav-item{
+        padding: 0px 20px;
+    }
+}
