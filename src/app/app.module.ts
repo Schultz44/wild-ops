@@ -8,7 +8,7 @@ import { AboutComponent } from './about/about.component';
 import { PodcastsComponent } from './podcasts/podcasts.component';
 import { GearComponent } from './gear/gear.component';
 import { ContactComponent } from './contact/contact.component';
-import { HeaderComponent } from 'src/custom-components/header.component';
+import { HeaderComponent } from 'src/custom-components/nav-header/header.component';
 
 @NgModule({
   declarations: [
