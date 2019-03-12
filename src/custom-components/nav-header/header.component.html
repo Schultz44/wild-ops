@@ -2,7 +2,7 @@
 
   <div class="nav">
     <div *ngFor="let nav of headerNav" class="nav-item">
-      <div>
+      <div (click)="setHeader(nav)">
         {{nav}}
       </div>
     </div>
