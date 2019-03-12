@@ -1,5 +1,10 @@
-<app-header></app-header>
+<app-header (header)="selectedHeader = $event"></app-header>
 
-<div>
-  {{title}}
+<div id="main-container">
+  <app-home id="app-home"  class="base {{selectedHeader == 'home' ? 'selected' : ''}}" ></app-home>
+  <app-about id="app-about" class="base {{selectedHeader == 'about' ? 'selected' : ''}}"></app-about>
+  <app-podcasts id="app-podcasts" class="base {{selectedHeader == 'podcasts' ? 'selected' : ''}}" ></app-podcasts>
+  <app-gear id="app-gear" class="base {{selectedHeader == 'gear' ? 'selected' : ''}}"></app-gear>
+  <app-contact id="app-contact" class="base {{selectedHeader == 'contact' ? 'selected' : ''}}"></app-contact>
 </div>
+

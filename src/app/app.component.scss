@@ -1,0 +1,47 @@
+#main-container{
+    height: calc(100% - 50px);
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#app-home{
+    transform: translateX(0);
+    transition: .4s;
+    &.selected{
+        transform: translateX(0);
+    }
+}
+#app-about{
+    transform: translateX(100%);
+    transition: .4s;
+    &.selected{
+        transform: translateX(0);
+    }
+}
+#app-podcasts{
+    transform: translateX(200%);
+    transition: .4s;
+    &.selected{
+        transform: translateX(0);
+    }
+}
+#app-gear{
+    transform: translateX(300%);
+    transition: .4s;
+    &.selected{
+        transform: translateX(0);
+    }
+}
+#app-contact{
+    transform: translateX(400%);
+    transition: .4s;
+    &.selected{
+        transform: translateX(0);
+    }
+}
+.base{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
